@@ -1,0 +1,19 @@
+{
+	"name": "Exanple Addon",
+	"description": "Build an Extension",
+	"version": "1.0",
+	"manifest_version": 3,
+	"background": {
+		"service_worker":"background.js"
+	},
+	"permissions":["storage"],
+	"action": {
+		"default_popup": "popup.html"
+	},
+	"content_scripts":[{
+		"matches": ["https://web.whatsapp.com/","http://web.whatsapp.com/"],
+		"css": ["whatsapp.css"],
+		"js":["whatsapp.js"]
+	}]
+
+}
