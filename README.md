@@ -2,4 +2,4 @@
 
 ---
 
-This Extensio
+This Extension will become a customizer for WhatsApp Web
